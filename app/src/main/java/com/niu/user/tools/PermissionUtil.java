@@ -29,11 +29,11 @@ public class PermissionUtil {
         if (cxt instanceof Activity) {
             Activity activity = (Activity) cxt;
             ActivityCompat.requestPermissions(activity, permission, requestCode);
-            Toast.makeText(activity, "avtivity", Toast.LENGTH_SHORT).show();
+//             Toast.makeText(activity, "avtivity", Toast.LENGTH_SHORT).show();
         } else if (cxt instanceof Fragment) {
             Fragment fragment = (Fragment) cxt;
             fragment.requestPermissions(permission, requestCode);
-            Toast.makeText(fragment.getActivity(), "fragment", Toast.LENGTH_SHORT).show();
+//             Toast.makeText(fragment.getActivity(), "fragment", Toast.LENGTH_SHORT).show();
 
         } else {
             throw new RuntimeException("cxt is not a activity or fragment");
