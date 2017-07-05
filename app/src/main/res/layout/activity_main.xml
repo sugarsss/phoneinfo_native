@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_get_app_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取本机安装的APP列表" />
+
+        <Button
+            android:id="@+id/btn_get_call_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取本机通话记录" />
+
+        <Button
+            android:id="@+id/btn_get_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取本机通讯录" />
+
+        <Button
+            android:id="@+id/btn_get_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取本机短信" />
+
+        <Button
+            android:id="@+id/btn_get_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取位置" />
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</ScrollView>
